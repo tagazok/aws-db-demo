@@ -47,7 +47,7 @@ EOF
 sudo yum install -y mongodb-org
 
 
-sudo git clone https://github.com/emmanueldeletang/nosqlwebapp /usr/src/app
+sudo git clone https://github.com/ndeplace/nosqlwebapp /usr/src/app
 cd /usr/src/app
 python3 -m pip install -r requirements.txt
 pip3 install markupsafe==2.0.1
